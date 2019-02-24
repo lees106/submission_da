@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\StevenChews\Documents\Atmel Studio\7.0\DA1B\DA1B\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\StevenChews\Documents\Atmel Studio\7.0\DA1B\DA1B\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\StevenChews\Documents\Atmel Studio\7.0\DA1B\DA1B\Debug\DA1B.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>DA1B.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>DA1B.map</FILE>
+  <FILE>DA1B.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <L1><FILE>C:\Users\StevenChews\Documents\Atmel Studio\7.0\DA1B\DA1B\main.asm</FILE><LINE>19</LINE></L1>
+  <LOOP><FILE>C:\Users\StevenChews\Documents\Atmel Studio\7.0\DA1B\DA1B\main.asm</FILE><LINE>23</LINE></LOOP>
+  <DIV3><FILE>C:\Users\StevenChews\Documents\Atmel Studio\7.0\DA1B\DA1B\main.asm</FILE><LINE>30</LINE></DIV3>
+  <NOT_DIV3><FILE>C:\Users\StevenChews\Documents\Atmel Studio\7.0\DA1B\DA1B\main.asm</FILE><LINE>38</LINE></NOT_DIV3>
+  <CONTINUE><FILE>C:\Users\StevenChews\Documents\Atmel Studio\7.0\DA1B\DA1B\main.asm</FILE><LINE>45</LINE></CONTINUE>
+  <end><FILE>C:\Users\StevenChews\Documents\Atmel Studio\7.0\DA1B\DA1B\main.asm</FILE><LINE>51</LINE></end>
+ </LABELS>
+</ASSEMBLER_INFO>
