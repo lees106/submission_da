@@ -1,10 +1,3 @@
-/*
-* Steven Lee
-* 5003887117
-* CPE 301 - Design Assignment 2B
-* Created 03/09/2019
-*/
-
 #define F_CPU 16000000UL
 #include <avr/io.h>
 #include <avr/interrupt.h>
@@ -17,13 +10,13 @@ int main(void) {
 	
 	EICRA = 0x2;			  // Make INTO falling edge triggered
 	EIMSK = (1<<INT0);		  // Enable external INT0
-	
+    
 	sei();				      //Enables global interrupt
 
-	while (1) {};
+    while (1) {};
 }
 
 ISR (INT0_vect) {			  // ISR for external INT0
-	PORTB ^= (1<<2);		  //Toggle LED
-	_delay_ms(1250);
+    PORTB ^= (1<<2);		  //Toggle LED
+    _delay_ms(1250);
 }
